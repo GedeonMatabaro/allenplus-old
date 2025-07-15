@@ -8,12 +8,12 @@ import { Leaf, Mail, MapPin } from "lucide-react"
 import Footer from "@/components/Footer"
 import { NextIntlClientProvider } from "next-intl"
 import { ThemeProvider } from "next-themes"
-import ReactQueryProvider from "./[locales]/contextProviders/ReactQueryProvider"
+import ReactQueryProvider from "./[locale]/contextProviders/ReactQueryProvider"
 import { fileRouter } from "./api/uploadthings/core"
 import { extractRouterConfig } from "uploadthing/server"
 import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
 import { validateRequest } from "@/auth"
-import SessionProvider from "./[locales]/contextProviders/SessionProvider"
+import SessionProvider from "./[locale]/contextProviders/SessionProvider"
 
 
 const inter = Inter({ subsets: ["latin"] })
